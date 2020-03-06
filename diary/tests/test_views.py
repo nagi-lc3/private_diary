@@ -12,12 +12,12 @@ class LoggedInTestCase(TestCase):
         """テストメソッド実行前の事前設定"""
 
         # テストユーザーのパスワード
-        self.password = 'Nagi_lc3'
+        self.password = '19981203z'
 
         # 各インスタンスメソッドで使うテスト用ユーザーを生成しインスタンス変数に格納しておく
         self.test_user = get_user_model().objects.create_user(
-            username='ymxlinkinparkxlc',
-            email='ymxlinkinparkxlc@gmail.com',
+            username='test',
+            email='test@example.com',
             password=self.password)
 
         # テスト用ユーザーでログインする

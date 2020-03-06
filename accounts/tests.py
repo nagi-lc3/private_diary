@@ -20,9 +20,9 @@ class TestLogin(LiveServerTestCase):
 
         # ログイン
         username_input = self.selenium.find_element_by_name("login")
-        username_input.send_keys('ymxlinkinparkxlc@gmail.com')
+        username_input.send_keys('test@example.com')
         password_input = self.selenium.find_element_by_name("password")
-        password_input.send_keys('Nagi_lc3')
+        password_input.send_keys('19981203z')
         self.selenium.find_element_by_class_name('btn').click()
 
         # ページタイトルの検証

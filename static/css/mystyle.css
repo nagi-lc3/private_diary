@@ -16,7 +16,7 @@ footer{
 
 /* サインアップ画面、ログイン画面の入力欄の整列 */
 label[for="id_login"], label[for="id_password"], label[for="id_remember"], label[for="id_email"], label[for="id_password1"], label[for="id_password2"]{
-    width: 190px;
+    width: 220px;
 }
 
 /* エラーメッセージの整列と赤文字化 */
