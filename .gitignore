@@ -2,4 +2,3 @@
 *.pyc
 backup/
 media/
-private_diary/settings_dev.py
