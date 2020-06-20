@@ -37,7 +37,7 @@ class DiaryListView(LoginRequiredMixin, generic.ListView):
         return diaries
 
 
-class DiaryDetailView(LoginRequiredMixin, generic.DeleteView):
+class DiaryDetailView(LoginRequiredMixin, generic.DetailView):
     model = Diary
     template_name = 'diary_detail.html'
 
